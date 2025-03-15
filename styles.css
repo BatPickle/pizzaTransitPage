@@ -6,15 +6,15 @@ body html {
 
 body {
     background-size: cover;
-    /* 'cover' ensures the image covers the entire area */
     background-repeat: no-repeat;
-    /* Prevents tiling */
     background-image: -webkit-image-set("https://static.wixstatic.com/media/90a441_4bcb097bc7444bac9583e0ac159ab619~mv2.jpg/v1/fill/w_2000,h_1258,al_tr,q_90,enc_avif,quality_auto/90a441_4bcb097bc7444bac9583e0ac159ab619~mv2.jpg");
+    background-attachment: fixed;
 }
+
 
 #pageContent {
     margin: 0 6vw;
-    height: 100vw;
+    height: 100%;
     background-color: #ebb67d;
     border: none;
     border-radius: 3vw;
@@ -90,7 +90,8 @@ body {
 
 #sectionTwoLeft {
     margin-top: 3vw;
-    width: 40%;
+    min-width: 40%;
+    max-width: 40%;
     margin: 5%;
     display: flex;
     flex-wrap: nowrap;
@@ -112,4 +113,91 @@ body {
 
 #sectionTwoLeft p:nth-child(3){
     margin: -.5vw 0;
+}
+
+
+#sectionTwoRight{
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    max-width: 40%;
+    margin: 5%;
+    align-items: center;
+}
+
+#sectionTwoRight button:nth-child(1){
+    background-color: #5e8c61;
+    border: .2vw solid #054740;
+    width: 25vw;
+    height: 5vw;
+    padding: 1vw;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    border-radius: 3vw;
+    color: #fff;
+}
+
+#sectionTwoRight button:nth-child(1) a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#sectionTwoRight button:nth-child(1):hover{
+    background-color: #81b884;
+}
+    
+#sectionTwoRight button:nth-child(2){
+    text-decoration: none;
+    background-color: #89241f;
+    border: .2vw solid #653438;
+    width: 25vw;
+    height: 5vw;
+    padding: 1vw;
+    font-size: 1.5vw;
+    border-radius: 3vw;
+    color: #fff;
+}
+
+#sectionTwoRight button:nth-child(2) a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#sectionTwoRight button:nth-child(2):hover{
+    background-color: #b23832;
+}
+
+
+#sectionTwoRight p{
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: 600;
+    margin: .5vw 0;
+}
+
+#splitTextHere{
+    margin: 1vw 0;
+}
+
+
+#sectionThree{
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+    margin-top: -10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionThree p{
+    font-size: 3.5vw;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 5vw;
+}
+
+#sectionThree img{
+    width: 65vw;
+    margin-top: -2vw;
+    box-shadow: 1vw 1vw 2vw #855f3e;
 }
