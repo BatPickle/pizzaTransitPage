@@ -13,7 +13,7 @@ body {
 
 
 #pageContent {
-    margin: 0 6vw;
+    margin: 0 1vh;
     height: 100%;
     background-color: #ebb67d;
     border: none;
@@ -22,37 +22,63 @@ body {
 
 #nav {
     background-color: #bd805d;
-    /* position: sticky; */
-    /* height: 10vw; */
-    width: 100%;
+    /* position: fixed; */
+    height: 100%;
+    width: 99.67%;
     border: none;
     border-radius: 3vw 3vw 0px 0px;
     /* margin-left: -6vw; */
+    border: .2vw solid #e79f76;
+    border-bottom: none;
 }
 
 #nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    margin-left: -3vh;
 }
 
 #nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
-    font-size: 2vw;
     float: left;
-    margin-left: -25px;
     margin: 0 1vw;
+    height: 8vh;
+    width: 13vw;
+    border: 0 .3vh solid #a97253;
+    border-left: .3vh solid #ebaa84;
+    border-right: .3vh solid #eeae89;
+    background-color: hsla(22, 74%, 74%, 0.114);
+    border-radius: 1vw;
+}
+
+#nav li:hover{
+    background-color: hsla(22, 74%, 74%, 0.452);
+}
+
+#nav li:active{
+    background-color: hsla(22, 74%, 74%, 0.628);
+}
+
+
+
+#nav li:last-child{
+    /* border-right: .5vh solid #dea17e; */
 }
 
 #nav a {
     display: block;
     text-align: center;
-    padding: 1vw;
     text-decoration: none;
     color: #fff;
     margin: 0 .6vw;
+    font-size: 130%;
 }
+
 
 
 
@@ -85,102 +111,99 @@ body {
 
 #sectionTwo {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #sectionTwoLeft {
     margin-top: 3vw;
-    min-width: 40%;
-    max-width: 40%;
+    width: 22rem;
     margin: 5%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-
 }
 
-#sectionTwoLeft img{
+#sectionTwoLeft img {
     box-shadow: 1vw 1vw 2vw #855f3e;
     border: none;
     border-radius: 2vw;
 }
 
-#sectionTwoLeft p{
+#sectionTwoLeft p {
     text-align: center;
-    font-size: 1.8vw;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
-#sectionTwoLeft p:nth-child(3){
+#sectionTwoLeft p:nth-child(3) {
     margin: -.5vw 0;
 }
 
 
-#sectionTwoRight{
+#sectionTwoRight {
     display: flex;
     flex-direction: column;
-    min-width: 40%;
-    max-width: 40%;
+    width: 22rem;
     margin: 5%;
     align-items: center;
 }
 
-#sectionTwoRight button:nth-child(1){
+#sectionTwoRight button:nth-child(1) {
     background-color: #5e8c61;
     border: .2vw solid #054740;
-    width: 25vw;
-    height: 5vw;
-    padding: 1vw;
-    font-size: 3vw;
+    width: 75%;
+    height: 3em;
+    font-size: 3.5vw;
     margin-bottom: 2vw;
     border-radius: 3vw;
     color: #fff;
 }
 
-#sectionTwoRight button:nth-child(1) a{
+#sectionTwoRight button:nth-child(1) a {
     text-decoration: none;
     color: inherit;
 }
 
-#sectionTwoRight button:nth-child(1):hover{
+#sectionTwoRight button:nth-child(1):hover {
     background-color: #81b884;
 }
-    
-#sectionTwoRight button:nth-child(2){
+
+#sectionTwoRight button:nth-child(2) {
     text-decoration: none;
     background-color: #89241f;
     border: .2vw solid #653438;
-    width: 25vw;
-    height: 5vw;
-    padding: 1vw;
+    width: 75%;
+    height: 3em;
     font-size: 1.5vw;
+    margin-bottom: 2vw;
     border-radius: 3vw;
     color: #fff;
 }
 
-#sectionTwoRight button:nth-child(2) a{
+#sectionTwoRight button:nth-child(2) a {
     text-decoration: none;
     color: inherit;
 }
 
-#sectionTwoRight button:nth-child(2):hover{
+#sectionTwoRight button:nth-child(2):hover {
     background-color: #b23832;
 }
 
 
-#sectionTwoRight p{
+#sectionTwoRight p {
     text-align: center;
-    font-size: 2.2vw;
+    font-size: 1.2em;
     font-weight: 600;
     margin: .5vw 0;
 }
 
-#splitTextHere{
+#splitTextHere {
     margin: 1vw 0;
 }
 
 
-#sectionThree{
+#sectionThree {
     display: flex;
     flex-direction: column;
     padding: 10vw;
@@ -189,14 +212,14 @@ body {
     align-items: center;
 }
 
-#sectionThree p{
+#sectionThree p {
     font-size: 3.5vw;
     text-decoration: underline;
     font-weight: bold;
     margin-top: 5vw;
 }
 
-#sectionThree img{
+#sectionThree img {
     width: 65vw;
     margin-top: -2vw;
     box-shadow: 1vw 1vw 2vw #855f3e;
