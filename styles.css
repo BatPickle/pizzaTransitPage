@@ -1,0 +1,115 @@
+body html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    /* 'cover' ensures the image covers the entire area */
+    background-repeat: no-repeat;
+    /* Prevents tiling */
+    background-image: -webkit-image-set("https://static.wixstatic.com/media/90a441_4bcb097bc7444bac9583e0ac159ab619~mv2.jpg/v1/fill/w_2000,h_1258,al_tr,q_90,enc_avif,quality_auto/90a441_4bcb097bc7444bac9583e0ac159ab619~mv2.jpg");
+}
+
+#pageContent {
+    margin: 0 6vw;
+    height: 100vw;
+    background-color: #ebb67d;
+    border: none;
+    border-radius: 3vw;
+}
+
+#nav {
+    background-color: #bd805d;
+    /* position: fixed; */
+    /* height: 10vw; */
+    width: 100%;
+    border: none;
+    border-radius: 3vw 3vw 0px 0px;
+    /* margin-left: -6vw; */
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#nav li {
+    color: #fff;
+    font-size: 2vw;
+    float: left;
+    margin-left: -25px;
+    margin: 0 1vw;
+}
+
+#nav a {
+    display: block;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 .6vw;
+}
+
+
+
+
+#sectionOne h1 {
+    text-align: center;
+    font-size: 7vw;
+    color: #630500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top: 1vw;
+}
+
+#fourLines {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 3vw;
+    margin-top: -4vw;
+}
+
+#fourLines div {
+    background-color: white;
+    height: 1.5vw;
+    width: 15vw;
+}
+
+
+
+#sectionTwo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#sectionTwoLeft {
+    margin-top: 3vw;
+    width: 40%;
+    margin: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+
+#sectionTwoLeft img{
+    box-shadow: 1vw 1vw 2vw #855f3e;
+    border: none;
+    border-radius: 2vw;
+}
+
+#sectionTwoLeft p{
+    text-align: center;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+#sectionTwoLeft p:nth-child(3){
+    margin: -.5vw 0;
+}
