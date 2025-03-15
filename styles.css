@@ -22,7 +22,7 @@ body {
 
 #nav {
     background-color: #bd805d;
-    /* position: fixed; */
+    /* position: sticky; */
     /* height: 10vw; */
     width: 100%;
     border: none;
@@ -200,4 +200,5 @@ body {
     width: 65vw;
     margin-top: -2vw;
     box-shadow: 1vw 1vw 2vw #855f3e;
+    border-radius: 2vw;
 }
