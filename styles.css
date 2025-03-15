@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: -3vh;
+    padding-bottom: 2vw;
 }
 
 #nav li {
@@ -85,7 +86,7 @@ body {
 
 #sectionOne h1 {
     text-align: center;
-    font-size: 7vw;
+    font-size: 8vw;
     color: #630500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -117,8 +118,8 @@ body {
 
 #sectionTwoLeft {
     margin-top: 3vw;
-    width: 22rem;
-    margin: 5%;
+    width: 40%;
+    padding: 3vh;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -144,7 +145,7 @@ body {
 #sectionTwoRight {
     display: flex;
     flex-direction: column;
-    width: 22rem;
+    width: 40%;
     margin: 5%;
     align-items: center;
 }
